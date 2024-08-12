@@ -1,0 +1,34 @@
+body {
+	background-color: Black;
+}
+h1 {
+	color: white;
+	font-family: arial;
+}
+h2 {
+	color: white;
+	font-family: arial;
+}
+p {
+	color: white;
+	font-family: "Times New Roman";
+	padding: 10px;
+}
+table, th, tr, td {
+	border: solid 1px gray;
+	border-collapse: collapse;
+	font-family: "Verdana"
+}
+tr:nth-child(even) {
+	background-color: purple
+}
+a:link {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited {
+	color: slateblue;
+	background-color: transparent;
+	text-decoration: underline;
+}
